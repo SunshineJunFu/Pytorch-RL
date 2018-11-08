@@ -10,11 +10,24 @@
 
 ## Usage
 
+### Priority Experience Replay
+
+```Python
+python 
+```
+
+
 ### N-step return learning
+
+```Python
+python 
+```
 
 ### Asynchorous workers
 
-### Priority Experience Replay
+```Python
+python 
+```
 
 
 ### Experiment Results
