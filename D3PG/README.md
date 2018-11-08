@@ -6,13 +6,13 @@
 
 + N step return learning 
 
-+ Asynchorous workers
++ Asynchorous actor learn and synchorous target update
 
 ## Prerequisites
 
-Pytorch: 0.4.0 or higher
+Pytorch     : 0.4.0 or higher
 
-OpenAI Gym
+OpenAI Gym  : 1.1.0
 
 
 ## Usage
