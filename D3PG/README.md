@@ -8,6 +8,13 @@
 
 + Asynchorous workers
 
+## Prerequisites
+
+Pytorch: 0.4.0 or higher
+
+OpenAI Gym
+
+
 ## Usage
 
 ### Priority Experience Replay
