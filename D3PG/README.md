@@ -39,6 +39,8 @@ python
 
 1. https://github.com/ajgupta93/d3pg-pytorch
 
+3. https://github.com/ghliu/pytorch-ddpg
+
 2. https://github.com/jaara/AI-blog/blob/master/Seaquest-DDQN-PER.py
 
 ### Paper 
