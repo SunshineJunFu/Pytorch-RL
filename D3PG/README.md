@@ -54,4 +54,7 @@ python
 
 1. [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
 
+2. [Comparing Deep Reinforcement Learning and Evolutionary Methods
+in Continuous Control](https://arxiv.org/pdf/1712.00006.pdf)
+
 
