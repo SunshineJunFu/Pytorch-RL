@@ -1,1 +1,25 @@
 
+Distributed Deep Deterministic Policy Gradient 
+
+Charateristics:
+
+1. Priority Experience Replay
+
+2. N-steps return 
+
+3. Asynchorous learning
+
+
+Usage:
+
+
+
+
+
+Reference:
+
+paper:
+
+
+code:
+
