@@ -6,7 +6,7 @@
 
 + N step return learning 
 
-+ asynchorous workers
++ Asynchorous workers
 
 ## Usage
 
