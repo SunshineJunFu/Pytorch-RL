@@ -19,7 +19,10 @@ Usage:
 Reference:
 
 paper:
-
+Asynchronous Methods for Deep Reinforcement Learning https://arxiv.org/abs/1602.01783
 
 code:
 
+https://github.com/ajgupta93/d3pg-pytorch
+
+https://github.com/jaara/AI-blog/blob/master/Seaquest-DDQN-PER.py
