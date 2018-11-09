@@ -2,11 +2,12 @@
 
 ## charateristics:
 
-+ Priority Experience Replay
++ Shared Priority Experience Replay
 
 + N step return learning 
 
 + Asynchorous learning
+
 
 ## Prerequisites
 
