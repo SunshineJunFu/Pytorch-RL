@@ -1,0 +1,1 @@
+python ./src/multi_agent.py  --k 1000 --train_worker_nums 16 --Max_epoch 5000 --test_epoch 10 --n_step 5

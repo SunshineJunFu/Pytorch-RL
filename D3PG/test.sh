@@ -1,0 +1,1 @@
+python ./src/evaluation.py   --actor_pkl_path ./model/actor.pkl  --critic_pkl_path ./model/critic.pkl
