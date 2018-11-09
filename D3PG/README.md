@@ -40,6 +40,8 @@ python
 ### Experiment Results
 ![](https://github.com/fujunustc/Pytorch-RL/raw/master/D3PG/imgs/Mountain_test.png)
 
+![](https://github.com/fujunustc/Pytorch-RL/raw/master/D3PG/imgs/MountainCar.gif)
+
 ## Reference
 
 ### code
