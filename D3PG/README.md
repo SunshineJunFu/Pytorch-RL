@@ -54,6 +54,8 @@ python
 
 3. https://github.com/jaara/AI-blog/blob/master/Seaquest-DDQN-PER.py
 
+4. https://stackoverflow.com/questions/3671666/sharing-a-complex-object-between-python-processes
+
 ### Paper 
 
 1. [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
