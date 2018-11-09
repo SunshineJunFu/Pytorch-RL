@@ -6,7 +6,7 @@
 
 + N step return learning 
 
-+ Asynchorous actor learn and synchorous target update
++ Asynchorous learning
 
 ## Prerequisites
 
