@@ -1,0 +1,1 @@
+python ./src/evaluation.py   --resume 1 --pretrain_path ./model/pretrain_model.pkl

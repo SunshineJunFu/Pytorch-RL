@@ -1,0 +1,1 @@
+python ./src/multi_agent.py --train_worker_nums 16  --test_epoch 10 --T_max 1000000
