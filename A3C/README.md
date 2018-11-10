@@ -4,12 +4,13 @@
 
 + Asynchronous learning on GPU / CPU
 
++ Multiprocess
+
 ## Prerequisites
 
 Pytorch     :  >= 0.4.0 
 
 OpenAI Gym  :  >= 1.1.0
-
 
 ## Usage
 
@@ -27,7 +28,6 @@ python
 ```
 
 ### Experiment Results
-
 
 
 ## Reference
