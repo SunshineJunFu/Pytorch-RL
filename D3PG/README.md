@@ -18,24 +18,20 @@ OpenAI Gym  :  >= 1.1.0
 
 ## Usage
 
-### Priority Experience Replay
+### Train
 
 ```Python
-python 
+python ./src/multi_agent.py  --k 1000 --train_worker_nums 16 --Max_epoch 5000 --test_epoch 10 --n_step 5
 ```
 
 
-### N-step return learning
+### test
 
 ```Python
-python 
+python ./src/evaluation.py   --actor_pkl_path ./model/actor.pkl  --critic_pkl_path ./model/critic.pkl 
 ```
 
-### Asynchorous workers
 
-```Python
-python 
-```
 
 
 ### Experiment Results
