@@ -6,7 +6,7 @@
 
 + N step return learning 
 
-+ Asynchorous learning
++ Asynchronous learning
 
 
 ## Prerequisites
