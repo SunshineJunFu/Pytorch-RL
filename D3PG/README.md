@@ -25,7 +25,7 @@ python ./src/multi_agent.py  --k 1000 --train_worker_nums 16 --Max_epoch 5000 --
 ```
 
 
-### test
+### Test
 
 ```Shell
 python ./src/evaluation.py  --actor_pkl_path ./model/actor.pkl  --critic_pkl_path ./model/critic.pkl 
