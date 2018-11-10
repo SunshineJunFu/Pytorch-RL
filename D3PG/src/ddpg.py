@@ -410,7 +410,7 @@ class DDPG(object):
 		"""
 		# 1.
 
-		if len(self.replay_memory) < self.batch_size:
+		if self.replay_memory.get_len() < self.batch_size: # not use len()
 			return 
 
 		batch_data, importance_weight = self.replay_memory.sample(self.batch_size)
