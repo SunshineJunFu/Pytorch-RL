@@ -81,6 +81,11 @@ class ReplayMemory(object):
 	def __len__(self):
 
 		return self.tree.len
+	
+	def get_len(self):
+		
+		return self.tree.len
+		
 
 
 if __name__ == '__main__':
