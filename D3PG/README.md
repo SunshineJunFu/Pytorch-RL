@@ -20,19 +20,16 @@ OpenAI Gym  :  >= 1.1.0
 
 ### Train
 
-```Python
+```Shell
 python ./src/multi_agent.py  --k 1000 --train_worker_nums 16 --Max_epoch 5000 --test_epoch 10 --n_step 5
 ```
 
 
 ### test
 
-```Python
-python ./src/evaluation.py   --actor_pkl_path ./model/actor.pkl  --critic_pkl_path ./model/critic.pkl 
+```Shell
+python ./src/evaluation.py  --actor_pkl_path ./model/actor.pkl  --critic_pkl_path ./model/critic.pkl 
 ```
-
-
-
 
 ### Experiment Results
 <div align="center">
