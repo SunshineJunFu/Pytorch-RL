@@ -17,14 +17,14 @@ OpenAI Gym  :  >= 1.1.0
 ### Train
 
 ```Shell
-python 
+python ./src/multi_agent.py --train_worker_nums 16  --test_epoch 10 --T_max 1000000
 ```
 
 
 ### Test
 
 ```Shell
-python 
+python  --resume 1 --pretrain_path ./model/pretrain_model.pkl
 ```
 
 ### Experiment Results
