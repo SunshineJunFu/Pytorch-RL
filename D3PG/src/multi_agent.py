@@ -18,6 +18,8 @@ import torch.multiprocessing as mp
 
 from tensorboardX import SummaryWriter
 
+from multiprocessing.managers import BaseManager
+
 def parser_usage():
 
 	# 1. create parser #
@@ -90,7 +92,13 @@ def main(args):
 
 	# globale model #
 	
-	global_replayMemory 	= ReplayMemory(args.capacity)
+	BaseManager.register('ReplayMemory', ReplayMemory)
+	
+	manager = BaseManager()
+
+	manager.start()
+	
+	global_replayMemory 		= manager.ReplayMemory(args.capacity)
 
 	global_wolp_ddpg 		= DDPG(global_replayMemory, None, None, None, args, 1)
 
