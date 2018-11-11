@@ -119,7 +119,7 @@ class train_worker(mp.Process):
 
 		total_loss = (critic_loss + policy_loss)
 
-		return total_loss / time_step, critic_loss/time_step, policy_loss/time_step
+		return total_loss , critic_loss/time_step, policy_loss/time_step #/ time_step
 
 
 	def adjust_learning_rate(self, lr):
@@ -217,6 +217,8 @@ class train_worker(mp.Process):
 
 			self.update_network(loss)
 
+			self.beta = max(1e-1, 1 * (self.T_max - self.T.value) / self.T_max)
+
 			episode_loss = loss.cpu().detach().numpy()
 
 			episode_reward = np.sum(r)
@@ -272,6 +274,8 @@ class test_worker(mp.Process):
 
 		counter = 0
 
+		t = 1
+
 		while True:
 
 			# load gnet parameters #
@@ -286,6 +290,8 @@ class test_worker(mp.Process):
 
 				reward_all = 0
 
+				t_start = t
+
 				while True:
 
 					prob, v_s, a_t = self.agent.choose_action(state)
@@ -294,13 +300,17 @@ class test_worker(mp.Process):
 
 					reward_all  += reward
 
-					if done:
+					state = next_state
+
+					t += 1
+
+					if done or t- t_start>self.args.episode_max_len:
 
 						break
 
 				reward_list.append(reward_all)
 
-				self.res_queue.put([reward, counter])
+				self.res_queue.put([reward_all, counter])
 
 				counter += 1
 
