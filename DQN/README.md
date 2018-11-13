@@ -6,7 +6,7 @@
 
 + Prioritized Experience Replay
 
-+ 
++ N step Return
 
 ## Prerequisites
 
