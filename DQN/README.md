@@ -4,7 +4,9 @@
 
 + Asynchronous learning on GPU / CPU
 
-+ Multiprocess
++ Prioritized Experience Replay
+
++ 
 
 ## Prerequisites
 
