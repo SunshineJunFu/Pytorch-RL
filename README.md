@@ -16,5 +16,9 @@
 
 ## DQN
 
+<div align="center">
+<img src="https://github.com/fujunustc/Pytorch-RL/raw/master/DQN/imgs/dqn.png" height="280px" alt="图片说明" >
+<img src="https://github.com/fujunustc/Pytorch-RL/raw/master/DQN/imgs/Carpole_V0_dqn.gif" height="280px" alt="图片说明" >
+</div>
 
 
