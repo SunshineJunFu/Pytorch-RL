@@ -10,9 +10,9 @@
 
 ## Prerequisites
 
-Pytorch     :  >= 0.4.0 
++ Pytorch     :  >= 0.4.0 
 
-OpenAI Gym  :  >= 1.1.0
++ OpenAI Gym  :  >= 1.1.0
 
 ## Usage
 
