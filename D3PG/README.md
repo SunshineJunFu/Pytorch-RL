@@ -57,4 +57,8 @@ python ./src/evaluation.py  --actor_pkl_path ./model/actor.pkl  --critic_pkl_pat
 2. [Comparing Deep Reinforcement Learning and Evolutionary Methods
 in Continuous Control](https://arxiv.org/pdf/1712.00006.pdf)
 
+### blog
+
+1. https://pemami4911.github.io/paper-summaries/deep-rl/2016/01/26/prioritizing-experience-replay.html
+
 
