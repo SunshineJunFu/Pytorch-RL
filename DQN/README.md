@@ -37,7 +37,11 @@ python ./src/evaluation.py   --resume 1 --qnet_pkl_path ./model/agent.pkl
 </div>
 
 ## How to apply into specific environment 
-
++ write your own environment
++ set up model
++ modify dqn.py 
++ modify asynchronouswork.py
++ modify multi-agent.py
 
 ## Reference
 
